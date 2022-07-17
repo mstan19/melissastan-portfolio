@@ -6,8 +6,13 @@
 }
 
 
-nav {
+nav ul {
     padding: 15px;
+    flex: 4;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    height: 100px;
 }
 
 nav * {
@@ -31,7 +36,6 @@ h3 {
     font-size: 36px;
     font-weight: 100;
     position:relative;
-    align-items: flex-start;
 }
 
 .about-me {
@@ -42,7 +46,11 @@ h3 {
 #bluefox {
     width: 1500px;
     height:250px;   
-
+    
+}.bluefox {
+    width: 1500px;
+    height:250px; 
+    padding: 0; 
 }
 
 #profilepic {
@@ -51,28 +59,27 @@ h3 {
     float: left;  
 }
  
-#compprocessor {
+/* #compprocessor {
     width: 100px;
     height: 90px;
-}
+} */
 
 main {
-    width: 25%;
+    /* width: 25%;
     display: inline-block;
     display:flex;
     flex-wrap: wrap;
-    position:relative;
-    left: 500px;
+    position:relative; */
 }
 
-#project1pic {
+/* #project1pic {
     width: 40%;
     display: inline-block;
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 500px;
-}
+} */
 
 article p {
     border-style: solid;
@@ -84,7 +91,7 @@ section p {
     border-width: 2px; 
 }
 
-.mainwork{
+/* .mainwork{
     border-style: solid;
     border-width: 2px;
     padding: 10px;
@@ -93,25 +100,36 @@ section p {
     margin: 20px -285px;
     background-color: white;
     position: relative;
+} */
+
+.projects {
+    flex: 4;
+    display:flex;
+    flex-wrap:wrap;
 }
 
-div {
-    position: relative;
-    float:right;
+
+
+.work img{
+    width: 100px;
+    height: 100px;
 }
 
-.projects *:hover {
+/* .mainwork:hover {
+    background-color: #ecc0c9;
+} */
+.work:hover {
     background-color: #ecc0c9;
 }
-
 
 .work {
     border-style: solid;
     border-width: 2px;
     padding: 10px;
-    flex: 0 0 300px;
     box-shadow: 10px 10px 5px #b6b6b6;
     margin: 20px;
+    width: 500px; 
+    min-width: 400px;
 }
 
 h4 {
@@ -146,10 +164,13 @@ nav a:hover {
     color: white;
   }
 
-/* @media screen and (max-width: 768px) {
-    header,
-    nav {
-      flex-direction: row;
+@media screen and (max-width: 768px) {
+    .projects   {
+        flex-direction:column;
     }
-  } */
-  
+
+    nav ul {
+        flex-direction:column; 
+    }
+}
+
