@@ -46,7 +46,7 @@ h3 {
     font-size: 36px;
     font-weight: 100;
     position:relative;
-    padding: 20px;
+    padding: 30px;
     background-color: #f6e6e6;
     color: gray;
     padding: 10px;
@@ -56,7 +56,7 @@ h3 {
 
 #pinkfox {
     width: 2000px;
-    height:250px;   
+    height:350px;   
     border-style: solid;
     border-width: 2px;
     color: gray;
@@ -65,7 +65,7 @@ h3 {
 }
 .pinkfox {
     width: 1500px;
-    height:250px; 
+    height:350px; 
     padding: 0; 
 
 }
@@ -81,24 +81,10 @@ h3 {
   
 }
  
-/* #compprocessor {
-    width: 100%;
-    height: 70%;
-} */
 
-/* main {
-     width: 25%;
-    display: inline-block;
-    display:flex;
-    flex-wrap: wrap;
-    position:relative;
-} */
 .about-me {
-    border-style: solid;
-    border-width: 2px;
-    color: gray;    
-    border-style: solid;
-    border-width: 2px;
+    
+
     padding: 10px;
     box-shadow: 10px 10px 5px #b6b6b6;
     margin: 20px;
@@ -137,32 +123,26 @@ article p {
 }
 
 section p {
-
-    padding: 2px;
-}
-
-/* .mainwork{
     border-style: solid;
     border-width: 2px;
-    padding: 10px;
-    flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #b6b6b6;
-    margin: 20px -285px;
-    background-color: white;
-    position: relative;
-} */
+    color: gray;   
+    padding: 2px;
+    margin: 3px;
+}
+
 
 .projects {
     flex: 4;
     display:flex;
     flex-wrap:wrap;
-    margin-left: 10%; 
+    margin:0 auto; 
+    margin-left: 80px;
 }
 
 
 
 .work img {
-    width: 300px;
+    width: 476px;
     height: 200px;
     display:flex;
     flex-wrap: wrap;
@@ -212,12 +192,7 @@ section {
     background-color:white;
 } 
 
-/* article {
-    margin-bottom: 200px;
-    padding: 50px;
-    height: 300px;
-    background-color:white;
-} */
+
 
 nav ul {
     display: flex;
@@ -259,12 +234,6 @@ footer li {
 }
 
 @media screen and (max-width: 768px) {
-    /* .projects   {
-        flex-direction:column;
-        width: 100%;
- 
-
-    } */
 
     nav ul {
         flex-direction:column; 
