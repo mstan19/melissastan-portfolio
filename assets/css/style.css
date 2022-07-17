@@ -26,6 +26,16 @@ h1 {
     font-size: 36px;
     font-weight: 100;
 }
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: white; 
+}
+
 
 .about-me {
     text-align: center;
@@ -43,21 +53,69 @@ h1 {
     height:250px; 
     float: left;  
 }
-
+ 
 #compprocessor {
-    width: 200px;
-    height:250px;
+    width: 100px;
+    height: 90px;
 }
 
 main {
     width: 25%;
     display: inline-block;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 500px;
+    position:relative;
+    left: 500px;
+}
+
+#project1pic {
+    width: 50%;
+    display: inline-block;
+    display:flex;
+    flex-wrap: wrap;
     margin-left: 500px;
 }
 
+article p {
+    border-style: solid;
+    border-width: 2px; 
+    
+}
 
-.projects {
-    border: ;
+section p {
+    border-style: solid;
+    border-width: 2px; 
+}
+
+.mainwork{
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #b6b6b6;
+    margin: 20px -285px;
+    background-color: white;
+    position: relative;
+}
+
+div {
+    position: relative;
+    float:right;
+}
+
+.projects *:hover {
+    background-color: #ecc0c9;
+}
+
+
+.work {
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #b6b6b6;
+    margin: 20px;
 }
 
 section {
@@ -65,11 +123,14 @@ section {
     padding: 50px;
     height: 300px;
     background-color:white;
-}
+} 
 
-article {
-flex-wrap: wrap;
-}
+/* article {
+    margin-bottom: 200px;
+    padding: 50px;
+    height: 300px;
+    background-color:white;
+} */
 
 nav ul {
     display: flex;
@@ -85,6 +146,7 @@ nav a:hover {
 /* @media screen and (max-width: 768px) {
     header,
     nav {
-      flex-direction: column;
+      flex-direction: row;
     }
   } */
+  
