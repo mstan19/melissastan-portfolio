@@ -13,14 +13,15 @@ nav ul {
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    height: 100px;
+    
     
 }
 
-/* nav a{
-    border-style: solid;
-    border-width: 2px;
-} */
+nav div {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+}
 
 nav * {
     text-align: center;
@@ -31,15 +32,18 @@ nav * {
     background-color: #f6e6e6;
     color: gray;
     
-
 }
+
 .header1 {
     float:left;
+    padding-top: 15px;
+    margin-right: 20px;
 }
 
 h1 {
     font-size: 36px;
     font-weight: 100;
+    display: inline-block;
 }
 
 h3 {
@@ -55,7 +59,7 @@ h3 {
 
 
 #pinkfox {
-    width: 2000px;
+    width: 100%;
     height:350px;   
     border-style: solid;
     border-width: 2px;
@@ -64,7 +68,7 @@ h3 {
     
 }
 .pinkfox {
-    width: 1500px;
+    width: 100%;
     height:350px; 
     padding: 0; 
 
@@ -83,15 +87,11 @@ h3 {
  
 
 .about-me {
-    
-
-    padding: 10px;
+        padding: 10px;
     box-shadow: 10px 10px 5px #b6b6b6;
     margin: 20px;
     width: 10%; 
     display:flex;
-
-
 }
 
 #project1pic {
@@ -193,17 +193,13 @@ section {
 } 
 
 
-
-nav ul {
-    display: flex;
-    justify-content:end;
-    
-}
-
-
 nav a:hover {
     color: white;
     background-color: black;
+  }
+
+  section a{
+    text-decoration: none;
   }
 
 footer {
@@ -234,9 +230,10 @@ footer li {
 }
 
 @media screen and (max-width: 768px) {
-
-    nav ul {
+    .header1, nav ul {
         flex-direction:column; 
     }
 }
+
+
 
