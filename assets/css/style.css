@@ -13,8 +13,6 @@ nav ul {
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    
-    
 }
 
 nav div {
@@ -206,13 +204,6 @@ footer {
     padding: 30px;
     font-size: 20px;
     text-align: center;
-    
-}
-footer a {
-    text-decoration: none;
-    background-color:white;
-
-
 }
 
 footer ul {
@@ -227,6 +218,11 @@ footer li {
     padding: 10px;
     background-color: white;
        
+}
+
+footer a {
+    text-decoration: none;
+    background-color:white;
 }
 
 @media screen and (max-width: 768px) {
