@@ -6,7 +6,7 @@
 
 }
 
-
+/* nav section */
 nav ul {
     padding: 15px;
     flex: 4;
@@ -20,7 +20,7 @@ nav div {
     flex-wrap: wrap;
     flex: 2;
 }
-
+/* this was needed apply to all aspects of the nav*/
 nav * {
     text-align: center;
     padding: 10px;
@@ -31,6 +31,8 @@ nav * {
     color: gray;
     
 }
+
+/* headers */
 
 .header1 {
     float:left;
@@ -55,57 +57,18 @@ h3 {
     text-align: center;
 }
 
-
-#pinkfox {
-    width: 100%;
-    height:350px;   
-    border-style: solid;
-    border-width: 2px;
-    color: gray;
-  
-    
-}
-.pinkfox {
-    width: 100%;
-    height:350px; 
-    padding: 0; 
-
+h4 {
+    padding: 20px;
+    margin:auto;
+    background-color: rgba(48, 47, 47, 0.993);
+    color: #fff; 
 }
 
-#profilepic {
-    width: 240px;
-    height:300px; 
-    margin-left: 100px;
-    border-style: solid;
-    border-width: 2px;
-    color: gray;
-    float: left;
-  
-}
- 
-
-.about-me {
-        padding: 10px;
-    box-shadow: 10px 10px 5px #b6b6b6;
-    margin: 20px;
-    width: 10%; 
-    display:flex;
-}
-
-#project1pic {
-    width: 100%;
-    height: 70%;
-    display: inline-block;
-
-    
-}
-
+/* large sections */
 div {
     display: flex;
     flex-wrap: wrap;
 }
-
-
 
 article p {
 
@@ -115,9 +78,6 @@ article p {
     padding: 10px;
     font-style: italic;
     margin: 75px;
-
-
-
 }
 
 section p {
@@ -128,15 +88,18 @@ section p {
     margin: 3px;
 }
 
+/* classes and hovers */
 
-.projects {
-    flex: 4;
-    display:flex;
-    flex-wrap:wrap;
-    margin:0 auto; 
-    margin-left: 80px;
+/*  this is the images used for the project tags. they had the same size so it was used class instead if id */
+
+
+.about-me {
+    padding: 10px;
+box-shadow: 10px 10px 5px #b6b6b6;
+margin: 20px;
+width: 10%; 
+display:flex;
 }
-
 
 
 .work img {
@@ -175,14 +138,22 @@ section p {
     width: 500px; 
 }
 
-h4 {
-    padding: 20px;
-    margin:auto;
-    background-color: rgba(48, 47, 47, 0.993);
-    color: #fff;
-    
+.projects {
+    flex: 4;
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 auto; 
+    margin-left: 80px;
 }
 
+.pinkfox {
+    width: 100%;
+    height:350px; 
+    padding: 0; 
+
+}
+
+/* SECTION for the SECTION */
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -190,16 +161,45 @@ section {
     background-color:white;
 } 
 
+/* a- tag is needed to notify css that the a- tages needs to have no decoration. you cannot add it to the section  */
+section a{
+    text-decoration: none;
+  }
+
+
 
 nav a:hover {
     color: white;
     background-color: black;
   }
 
-  section a{
-    text-decoration: none;
-  }
+  /* classes for the images used */
 
+  #profilepic {
+    width: 240px;
+    height:300px; 
+    margin-left: 100px;
+    border-style: solid;
+    border-width: 2px;
+    color: gray;
+    float: left;
+}
+
+#pinkfox {
+    width: 100%;
+    height:350px;   
+    border-style: solid;
+    border-width: 2px;
+    color: gray; 
+}
+
+#project1pic {
+    width: 100%;
+    height: 70%;
+    display: inline-block;   
+}
+
+  /* footer section */
 footer {
     padding: 30px;
     font-size: 20px;
@@ -225,6 +225,7 @@ footer a {
     background-color:white;
 }
 
+/* this makes the page responsive */
 @media screen and (max-width: 768px) {
     .header1, nav ul {
         flex-direction:column; 
