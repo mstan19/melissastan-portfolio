@@ -17,3 +17,7 @@ This is what the website needs to look like after refactoring the code.
 ## How to deploy the link application
 * Click on this link for deployed application
 * https://mstan19.github.io/melissastan-portfolio/
+
+## Warning about links in portfolio
+* Warning the links in projects and resume are temporary links that serve as place holders
+
